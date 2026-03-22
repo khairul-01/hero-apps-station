@@ -14,3 +14,9 @@ body {
 @plugin "daisyui" {
   themes: caramellatte --default, dracula;
 }
+
+a.active {
+  font: bolder;
+  text-decoration: underline;
+  color: #632EE3;
+}
