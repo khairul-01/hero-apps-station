@@ -4,6 +4,7 @@ import ErrorPage from "../pages/ErrorPage";
 import Home from "../pages/Home";
 import axios from "axios";
 import AllApps from "../pages/AllApps";
+import AppDetails from "../pages/AppDetails";
 
 export const router = createBrowserRouter([
     {
@@ -26,6 +27,15 @@ export const router = createBrowserRouter([
                 loader: async () => {
                     const res = await axios.get('/appData.json');
                     return res.data;
+                }
+            },
+            {
+                path: 'appDetails/:id',
+                Component: AppDetails,
+                loader: async ({params}) => {
+                    const res = await axios.get('/appData.json');
+                    const app = res.data.find(item => item.id === parseInt(params.id));
+                    return app
                 }
             }
         ]
