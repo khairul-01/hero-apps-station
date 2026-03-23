@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10 pb-0">
+            <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10 pb-0">
                 <aside>
                     <div className='flex justify-center items-center'>
                         <img className='w-9 h-9' src={logo} alt="apps logo" />
@@ -35,15 +35,15 @@ const Footer = () => {
                 <nav>
                     <h6 className="footer-title">Social Links</h6>
                     <div className='mt-2 flex gap-2'>
-                        <a className="link link-hover border-0 bg-amber-50 rounded-full p-1"><i className="fa-brands fa-x-twitter text-lg"></i> </a>
-                        <a className="link link-hover border-0 bg-amber-50 rounded-full p-1"><i className="fa-brands fa-linkedin-in text-lg"></i> </a>
-                        <a className="link link-hover border-0 bg-amber-50 rounded-full p-1"><i className="fa-brands fa-facebook-f text-lg"></i> </a>
-                        <a className="link link-hover border-0 bg-amber-50 rounded-full p-1"><i className="fa-solid fa-envelope text-lg"></i> </a>
+                        <a className="link link-hover border-0 bg-white rounded-full p-1"><i className="fa-brands fa-x-twitter text-lg"></i> </a>
+                        <a className="link link-hover border-0 bg-white rounded-full p-1"><i className="fa-brands fa-linkedin-in text-lg"></i> </a>
+                        <a className="link link-hover border-0 bg-white rounded-full p-1"><i className="fa-brands fa-facebook-f text-lg"></i> </a>
+                        <a className="link link-hover border-0 bg-white rounded-full p-1"><i className="fa-solid fa-envelope text-lg"></i> </a>
                     </div>
                 </nav>
             </footer>
-            <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-10">
-                <div className='border-t w-full border-amber-50'></div>
+            <footer className="footer sm:footer-horizontal footer-center bg-base-200 text-base-content p-10">
+                <div className='border-1 w-full border-white'></div>
                 <aside>
                     <p> © {new Date().getFullYear()}  Hero App Systems. All right reserved.</p>
                 </aside>

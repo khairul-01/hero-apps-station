@@ -1,0 +1,364 @@
+[
+  {
+    "id": 1,
+    "title": "Photo Editor Pro",
+    "companyName": "PixelSoft",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+    "description": "Edit your photos like a professional with powerful tools and smart filters. Apply effects, adjust brightness, and enhance image quality easily. Perfect for both beginners and advanced users who want stunning results.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Music Streamer",
+    "companyName": "SoundWave",
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+    "description": "Enjoy unlimited music streaming with personalized playlists and recommendations. Discover new songs, artists, and genres tailored to your taste. Listen anytime, anywhere with high-quality audio experience.",
+    "size": 30,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1460 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Fitness Tracker",
+    "companyName": "HealthPlus",
+    "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74",
+    "description": "Track your workouts, monitor calories, and stay on top of your fitness goals. Get detailed insights into your daily activities and health progress. A perfect companion for maintaining a healthy lifestyle.",
+    "size": 25,
+    "reviews": 1800,
+    "ratingAvg": 4.3,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Food Delivery",
+    "companyName": "QuickBite",
+    "image": "https://images.unsplash.com/photo-1498579809087-ef1e558fd1da",
+    "description": "Order your favorite meals quickly from nearby restaurants with fast delivery service. Explore a wide variety of cuisines and enjoy exclusive deals. Simple, convenient, and reliable food ordering experience.",
+    "size": 40,
+    "reviews": 3000,
+    "ratingAvg": 4.6,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Travel Guide",
+    "companyName": "WanderWorld",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "description": "Plan your trips and discover amazing destinations around the world. Get travel tips, guides, and recommendations for a smooth journey. Perfect for explorers who love adventure and new experiences.",
+    "size": 35,
+    "reviews": 950,
+    "ratingAvg": 4.2,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Language Learning",
+    "companyName": "LinguaApp",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    "description": "Learn new languages through interactive lessons, quizzes, and real-life conversations. Improve your speaking, reading, and writing skills step by step. Suitable for beginners as well as advanced learners.",
+    "size": 28,
+    "reviews": 1400,
+    "ratingAvg": 4.4,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Note Keeper",
+    "companyName": "MemoTech",
+    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db",
+    "description": "Organize your notes, tasks, and ideas in one place with an easy-to-use interface. Stay productive by managing your daily activities efficiently. Ideal for students, professionals, and busy individuals.",
+    "size": 15,
+    "reviews": 800,
+    "ratingAvg": 4.1,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Weather Now",
+    "companyName": "SkyCast",
+    "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b",
+    "description": "Get accurate weather updates and forecasts in real time for your location. Stay prepared with alerts for rain, storms, and temperature changes. Simple and reliable weather tracking at your fingertips.",
+    "size": 20,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Budget Manager",
+    "companyName": "FinTrack",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    "description": "Track your income, expenses, and savings with smart budgeting tools. Analyze your financial habits and make better money decisions. A great app for managing personal finances effectively.",
+    "size": 18,
+    "reviews": 900,
+    "ratingAvg": 4.0,
+    "downloads": 55000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 190 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Gaming Hub",
+    "companyName": "PlayZone",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420",
+    "description": "Discover and play exciting games from various categories in one platform. Stay entertained with new releases and trending games. A perfect hub for gamers of all ages and interests.",
+    "size": 60,
+    "reviews": 2500,
+    "ratingAvg": 4.6,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1250 }
+    ]
+  },
+  
+  {
+    "id": 11,
+    "title": "Video Editor Studio",
+    "companyName": "EditX",
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "description": "Create stunning videos with advanced editing tools and smooth transitions. Add effects, music, and filters to enhance your content easily. Perfect for content creators and video enthusiasts.",
+    "size": 55,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Chat Messenger",
+    "companyName": "Connectify",
+    "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70",
+    "description": "Stay connected with friends and family through fast and secure messaging. Send texts, images, and voice messages instantly. Enjoy group chats and seamless communication anytime.",
+    "size": 35,
+    "reviews": 3200,
+    "ratingAvg": 4.5,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Ebook Reader",
+    "companyName": "Readify",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "description": "Read your favorite books anytime with a smooth and comfortable reading experience. Customize fonts, themes, and brightness for better readability. Ideal for book lovers and daily readers.",
+    "size": 22,
+    "reviews": 900,
+    "ratingAvg": 4.3,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Online Shopping",
+    "companyName": "ShopEase",
+    "image": "https://images.unsplash.com/photo-1515168833906-d2a3b82b302a",
+    "description": "Shop from a wide range of products with exciting discounts and offers. Enjoy a smooth browsing and secure checkout experience. Perfect for convenient and hassle-free online shopping.",
+    "size": 48,
+    "reviews": 4100,
+    "ratingAvg": 4.7,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2440 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Task Manager",
+    "companyName": "TaskFlow",
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    "description": "Organize your daily tasks and boost productivity with smart planning tools. Set reminders, track progress, and manage deadlines easily. A great solution for staying focused and efficient.",
+    "size": 18,
+    "reviews": 1300,
+    "ratingAvg": 4.2,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "News Portal",
+    "companyName": "DailyNews",
+    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+    "description": "Get the latest news updates from around the world in one place. Explore different categories like politics, sports, and technology. Stay informed with real-time and reliable news content.",
+    "size": 26,
+    "reviews": 1700,
+    "ratingAvg": 4.1,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Photo Gallery",
+    "companyName": "SnapView",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "description": "View, manage, and organize your photos in a clean and simple interface. Easily browse through albums and relive your favorite moments. A perfect solution for keeping your memories safe.",
+    "size": 20,
+    "reviews": 800,
+    "ratingAvg": 4.0,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 170 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Map Navigator",
+    "companyName": "RouteFinder",
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764b8a",
+    "description": "Navigate easily with accurate maps and real-time traffic updates. Find the best routes and avoid delays during travel. A reliable companion for daily commuting and long trips.",
+    "size": 38,
+    "reviews": 2600,
+    "ratingAvg": 4.4,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1240 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Recipe Book",
+    "companyName": "CookMaster",
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+    "description": "Discover delicious recipes and learn cooking step by step. Explore various cuisines and improve your cooking skills. Perfect for beginners and experienced home chefs alike.",
+    "size": 27,
+    "reviews": 1400,
+    "ratingAvg": 4.5,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Meditation App",
+    "companyName": "CalmMind",
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+    "description": "Relax your mind and reduce stress with guided meditation sessions. Improve focus, sleep, and overall well-being. Ideal for maintaining a calm and balanced lifestyle.",
+    "size": 32,
+    "reviews": 1900,
+    "ratingAvg": 4.6,
+    "downloads": 130000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 910 }
+    ]
+  }
+
+]
