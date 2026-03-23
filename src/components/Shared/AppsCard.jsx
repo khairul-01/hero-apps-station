@@ -2,9 +2,10 @@ import { Download, Star } from 'lucide-react';
 import React from 'react';
 
 const AppsCard = ({ app }) => {
+    
     return (
         <div>
-            <div className="card bg-base-100 shadow-sm p-3">
+            <div className="card bg-base-200 shadow-sm p-3">
                 <figure className='rounded-xl h-80'>
                     <img className='size-full object-cover hover:scale-105 transition-all hover:-rotate-1'
                         src={app.image}
