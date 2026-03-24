@@ -1,22 +1,41 @@
 import React, { useState } from 'react';
-import { useLoaderData } from 'react-router';
+import { useLoaderData, useNavigation } from 'react-router';
 import AppsCard from '../components/Shared/AppsCard';
 
 const AllApps = () => {
     const [search, setSearch] = useState('');
     const allApps = useLoaderData();
+    // const [displayApps, setDisplayApps] = useState(allApps);
+    const [loading, setLoading] = useState(false)
 
     const filterApps = allApps.filter((app) => app.title.toLowerCase().includes(search.toLocaleLowerCase()) )
     // || app.description.toLowerCase().includes(search.toLocaleLowerCase()) 
-    console.log(filterApps)
+    // console.log(filterApps)
+    // const handleSearch = (value) => {
+    //     setLoading(true)
+    //     setSearch(value);
+    //     const filterApps = allApps.filter((app) => app.title.toLowerCase().includes(search.toLocaleLowerCase()))
 
+    //     setDisplayApps(filterApps)
+    //     setLoading(false)
+    // }
     const displayApps = search ? filterApps : allApps;
 
     console.log(search)
+
+    const navigation = useNavigation()
+
     return (
         <div className='text-primary px-10'>
             <h1 className='text-5xl font-bold text-center my-3'>Our All Applications</h1>
             <p className='text-center mt-2 text-primary/60'>Explore All Apps on the Market developed by us. We code for Millions</p>
+
+            {
+                navigation === "loading" && (
+                    <p className='text-center text-5xl text-red-500 my-10'>Data Loading .....</p>
+                )
+            }
+
             <div className='my-8'>
                 <div className='flex justify-between items-center'>
                     <h2 className='text-xl font-semibold'>({displayApps.length}) Apps Found</h2>
@@ -41,17 +60,22 @@ const AllApps = () => {
                     </label>
                 </div>
                 {
-                    displayApps.length === 0
-                        ?
-                        <p className='text-center mt-7 text-2xl font-bold'>No Apps Found</p>
-                        :
-                        <div className='my-3 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4'>
-                            {
-                                displayApps.map(app => (
-                                    <AppsCard key={app.id} app={app}></AppsCard>
-                                ))
-                            }
-                        </div>
+                    loading ? (
+                        <p className='text-5xl mt-7 text-center text-red-500'>Searching ...</p>
+                    ) : 
+                    (
+                        // displayApps.length === 0
+                        //     ?
+                        //     <p className='text-center mt-7 text-2xl font-bold'>No Apps Found</p>
+                        //     :
+                            <div className='my-3 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4'>
+                                {
+                                    displayApps.map(app => (
+                                        <AppsCard key={app.id} app={app}></AppsCard>
+                                    ))
+                                }
+                            </div>
+                    )
                 }
 
             </div>

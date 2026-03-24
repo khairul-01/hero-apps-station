@@ -4,7 +4,9 @@ import { useLoaderData } from 'react-router';
 import dnimg from '../assets/icon-downloads.png'
 import ratimg from '../assets/icon-ratings.png'
 import revimg from '../assets/icon-review.png'
+import appimg from "../assets/App-Error.png"
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Link } from 'react-router';
 
 const AppDetails = () => {
     const app = useLoaderData();
@@ -12,6 +14,7 @@ const AppDetails = () => {
     console.log(app.ratings)
     const barData = [...app.ratings].reverse();
     console.log(barData)
+    
     return (
         <div className='px-10'>
             <div className="hero bg-base-100 min-h-70vh text-primary">
@@ -72,9 +75,9 @@ const AppDetails = () => {
                         <BarChart data={barData} layout='vertical'>
                             {/* <CartesianGrid strokeDasharray="3 3"/> */}
                             <XAxis type='number' />
-                            <YAxis dataKey='name' type='category'/>
-                            <Tooltip/>
-                            <Bar dataKey='count' fill='#FF8811'/>
+                            <YAxis dataKey='name' type='category' />
+                            <Tooltip />
+                            <Bar dataKey='count' fill='#FF8811' />
                         </BarChart>
                     </ResponsiveContainer>
                 </div>

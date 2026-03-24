@@ -10,7 +10,8 @@ const AppsCard = ({ app }) => {
                 <div className="card bg-base-200 shadow-sm p-3">
                     <figure className='rounded-xl h-80'>
                         <img className='size-full object-cover hover:scale-105 transition-all hover:-rotate-1'
-                            src={app.image}
+                            src={`${app.image}?w-200&q=70`}
+                            // loading='lazy'
                             alt="Apps" />
                     </figure>
                     <div className="">

@@ -1,7 +1,8 @@
-import React from 'react';
+
 import appWev from '../assets/hero.png'
 
 const Stats = () => {
+
     return (
         <div>
             <div className='flex justify-center w-2/3 mx-auto'>
