@@ -1,20 +1,49 @@
 import { Download, Star } from 'lucide-react';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import dnimg from '../assets/icon-downloads.png'
 import ratimg from '../assets/icon-ratings.png'
 import revimg from '../assets/icon-review.png'
-import appimg from "../assets/App-Error.png"
+// import appimg from "../assets/App-Error.png"
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { Link } from 'react-router';
+import { Confirm } from 'notiflix';
+import toast from 'react-hot-toast';
+import { addInstalledApps, isInstalledApps } from '../utility/LocalStorage';
 
 const AppDetails = () => {
+    const [isInstalled, setIsInstalled] = useState(false)
     const app = useLoaderData();
-    console.log(app)
-    console.log(app.ratings)
+    // console.log(app)
+    // console.log(app.ratings)
     const barData = [...app.ratings].reverse();
-    console.log(barData)
-    
+    // console.log(barData)
+
+
+
+    useEffect(()=>{
+        console.log(isInstalledApps(app.id))
+        if(isInstalledApps(app.id)){
+            setIsInstalled(true)
+        }
+    },[app.id])
+
+    const handleInstall = (appId) => {
+
+        Confirm.show(
+            'Do you want to install',
+            'This App will be installed in your device',
+            'Yes',
+            'No',
+            () => {
+                addInstalledApps(appId)
+                toast.success(`${app.title} app has been installed successfully`)
+                setIsInstalled(true)
+            },
+        );
+
+    }
+
     return (
         <div className='px-10'>
             <div className="hero bg-base-100 min-h-70vh text-primary">
@@ -63,7 +92,10 @@ const AppDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className="text-white btn bg-linear-to-br from-[#00D390] to-[#09a070]">Install Now ({app.size} MB) </button>
+                        <button
+                            onClick={() => handleInstall(app.id)}
+                            disabled={isInstalled}
+                            className="text-white btn bg-linear-to-br from-[#00D390] to-[#09a070]">{isInstalled ? 'Installed' : `Install Now (${app.size} MB)`} </button>
                     </div>
                 </div>
             </div>

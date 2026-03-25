@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
-import { useLoaderData, useNavigation } from 'react-router';
+import { useLoaderData } from 'react-router';
 import AppsCard from '../components/Shared/AppsCard';
+import Loading from '../components/Shared/Loading';
 
 const AllApps = () => {
     const [search, setSearch] = useState('');
+    const [isTyping, setIsTyping] = useState(false);
     const allApps = useLoaderData();
     // const [displayApps, setDisplayApps] = useState(allApps);
-    const [loading, setLoading] = useState(false)
 
-    const filterApps = allApps.filter((app) => app.title.toLowerCase().includes(search.toLocaleLowerCase()) )
+    const filterApps = allApps.filter((app) => app.title.toLowerCase().includes(search.toLocaleLowerCase()))
     // || app.description.toLowerCase().includes(search.toLocaleLowerCase()) 
     // console.log(filterApps)
     // const handleSearch = (value) => {
@@ -19,22 +20,16 @@ const AllApps = () => {
     //     setDisplayApps(filterApps)
     //     setLoading(false)
     // }
-    const displayApps = search ? filterApps : allApps;
+    // const displayApps = search ? filterApps : allApps;
+    const displayApps = filterApps;
 
     console.log(search)
 
-    const navigation = useNavigation()
 
     return (
         <div className='text-primary px-10'>
             <h1 className='text-5xl font-bold text-center my-3'>Our All Applications</h1>
             <p className='text-center mt-2 text-primary/60'>Explore All Apps on the Market developed by us. We code for Millions</p>
-
-            {
-                navigation === "loading" && (
-                    <p className='text-center text-5xl text-red-500 my-10'>Data Loading .....</p>
-                )
-            }
 
             <div className='my-8'>
                 <div className='flex justify-between items-center'>
@@ -53,29 +48,36 @@ const AllApps = () => {
                             </g>
                         </svg>
                         <input
-                            type="search"
+                            type="text"
                             value={search}
                             onChange={(e) => setSearch(e.target.value)}
-                            placeholder="Search" />
+                            placeholder="Search"
+                            onKeyDown={() => setIsTyping(true)}
+                            onKeyUp={() => setIsTyping(false)}
+                        />
                     </label>
                 </div>
+                {/* <div className='flex justify-center '>
+                    {
+                        isTyping && <p>Searching <span className="loading loading-spinner text-error loading-xl py-3 "></span></p>
+                    }
+                </div> */}
                 {
-                    loading ? (
-                        <p className='text-5xl mt-7 text-center text-red-500'>Searching ...</p>
-                    ) : 
-                    (
-                        // displayApps.length === 0
-                        //     ?
-                        //     <p className='text-center mt-7 text-2xl font-bold'>No Apps Found</p>
-                        //     :
-                            <div className='my-3 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4'>
-                                {
-                                    displayApps.map(app => (
-                                        <AppsCard key={app.id} app={app}></AppsCard>
-                                    ))
-                                }
-                            </div>
-                    )
+                    isTyping ? <Loading />
+                        :
+                        (
+                            displayApps.length === 0
+                                ?
+                                <p className='text-center mt-7 text-2xl font-bold'>No Apps Found</p>
+                                :
+                                <div className='my-3 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4'>
+                                    {
+                                        displayApps.map(app => (
+                                            <AppsCard key={app.id} app={app}></AppsCard>
+                                        ))
+                                    }
+                                </div>
+                        )
                 }
 
             </div>
