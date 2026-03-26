@@ -28,8 +28,8 @@ const AllApps = () => {
 
     return (
         <div className='text-primary px-10'>
-            <h1 className='text-5xl font-bold text-center my-3'>Our All Applications</h1>
-            <p className='text-center mt-2 text-primary/60'>Explore All Apps on the Market developed by us. We code for Millions</p>
+            <h1 className='text-5xl font-bold text-center my-4'>Our All Applications</h1>
+            <p className='text-center my-2 text-primary/60'>Explore All Apps on the Market developed by us. We code for Millions</p>
 
             <div className='my-8'>
                 <div className='flex justify-between items-center'>

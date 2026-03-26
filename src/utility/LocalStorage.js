@@ -20,3 +20,12 @@ export const addInstalledApps = (id) => {
         savedApps('installedApps', appIds)
     }
 }
+
+export const deleteInstalledApps = (id) => {
+    const getAssIds = getSavedApps();
+    if(getAssIds){
+        const filteredApps = getAssIds.filter(appId => appId !== id)
+        console.log(filteredApps)
+        savedApps('installedApps', filteredApps)
+    }
+}

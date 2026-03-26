@@ -13,8 +13,8 @@ const Banner = () => {
                             At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.
                         </p>
                         <div className='space-x-3'>
-                            <button className="btn btn-primary btn-outline text-lg px-3 py-2"><img src={gplay} alt="" className='w-7 h-7' /> Google Play</button>
-                            <button className="btn btn-primary btn-outline text-lg px-3 py-3"><img src={app} alt="" className='w-7 h-7' /> App Store</button>
+                            <a href='https://play.google.com/store/games?hl=en' target='_blank' className="btn btn-primary btn-outline text-lg px-3 py-2"><img src={gplay} alt="" className='w-7 h-7' /> Google Play</a>
+                            <a href='https://www.apple.com/app-store/' target='_blank' className="btn btn-primary btn-outline text-lg px-3 py-3"><img src={app} alt="" className='w-7 h-7' /> App Store</a>
                         </div>
                     </div>
                 </div>
