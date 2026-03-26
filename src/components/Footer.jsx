@@ -11,7 +11,7 @@ const Footer = () => {
                         <h3 className="text-lg bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent uppercase font-bold ml-1">Hero app</h3>
                     </div>
                     <p className='text-wrap'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br /> Commodi incidunt veritatis ullam! Asperiores officia ad <br /> natus quia, rem aut sit.
+                        Your gateway to top apps and smart choices. <br />It brings everything into one centralized hub <br /> Explore. Compare. Choose Better.
                     </p>
                 </aside>
                 <nav>

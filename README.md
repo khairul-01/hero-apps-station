@@ -1,16 +1,15 @@
-# React + Vite
+# Hero App Station
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hero App Station is a modern web application designed to help users discover, explore, and evaluate the best applications across multiple categories. It provides a clean and intuitive interface where users can browse apps, search instantly, and view detailed information including ratings, reviews, and downloads.
 
-Currently, two official plugins are available:
+The platform focuses on performance, fast navigation, and user experience. With features like real-time search, dynamic routing, and loading animations, Hero App Station ensures a smooth and engaging browsing experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technology Used
+- React - for building dynamic UI
+- Tailwind CSS & Daisy UI - for fast styling
+- React Router = for navigation and loader api
+- React Hooks - manage data 
+- ### Other Features
+- Search Functionality
+- Skeleton Loading UI
+- Error Handling and custom error page
