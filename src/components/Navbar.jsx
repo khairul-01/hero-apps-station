@@ -21,6 +21,13 @@ const Navbar = () => {
                             tabIndex="-1"
                             className=" menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             {links}
+                            <li><a
+                                href='https://github.com/khairul-01' target='_blank'
+                                className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2]  ">
+                                <img className='mr-2' src={gitHub} alt="github" />
+                                <span className=' font-semibold text-white'>Contribute</span>
+
+                            </a></li>
                         </ul>
                     </div>
                     <Link to={'/'} className='btn btn-ghost'>
@@ -33,7 +40,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end hidden md:flex ">
                     <a
                         href='https://github.com/khairul-01' target='_blank'
                         className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] px-4 py-3 ">
