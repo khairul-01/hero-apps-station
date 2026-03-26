@@ -7,7 +7,7 @@ import Loading from '../components/Shared/Loading';
 const Root = () => {
     const navigation = useNavigation();
     return (
-        <div className='space-y-10'>
+        <div className='space-y-10 max-w-7xl mx-auto'>
             <Navbar></Navbar>
             {/* {
                 navigation.state === "loading" && (

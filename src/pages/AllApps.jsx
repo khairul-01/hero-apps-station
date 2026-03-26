@@ -32,7 +32,7 @@ const AllApps = () => {
             <p className='text-center my-2 text-primary/60'>Explore All Apps on the Market developed by us. We code for Millions</p>
 
             <div className='my-8'>
-                <div className='flex justify-between items-center'>
+                <div className='flex my-3 flex-col gap-2 sm:flex-row justify-between items-center'>
                     <h2 className='text-xl font-semibold'>({displayApps.length}) Apps Found</h2>
                     <label className="input">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -70,7 +70,7 @@ const AllApps = () => {
                                 ?
                                 <p className='text-center mt-7 text-2xl font-bold'>No Apps Found</p>
                                 :
-                                <div className='my-3 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4'>
+                                <div className='my-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                                     {
                                         displayApps.map(app => (
                                             <AppsCard key={app.id} app={app}></AppsCard>

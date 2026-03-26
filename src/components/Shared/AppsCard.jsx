@@ -5,12 +5,12 @@ import { Link } from 'react-router';
 const AppsCard = ({ app }) => {
 
     return (
-        <div>
+        <div className='flex justify-center'>
             <Link to={`/appDetails/${app.id}`}>
-                <div className="card bg-gray-50 shadow-md p-3">
-                    <figure className='rounded-xl h-80'>
-                        <img className='size-full object-cover hover:scale-105 transition-all hover:-rotate-1'
-                            src={`${app.image}?w-200&q=70`}
+                <div className="card bg-gray-50 max-w-80 shadow-md p-3">
+                    <figure className='rounded-xl h-50 sm:h-80'>
+                        <img className=' object-cover w-50 sm:w-full sm:max-h-60  hover:scale-105 transition-all hover:-rotate-1'
+                            src={`${app.image}?w-300&q=80`}
                             // loading='lazy'
                             alt="Apps" />
                     </figure>
