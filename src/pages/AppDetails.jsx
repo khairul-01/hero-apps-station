@@ -51,14 +51,18 @@ const AppDetails = () => {
                     <figure className='rounded-xl'>
                         <img
                             src={app.image}
-                            className="w-50 sm:w-96 sm:max-w-md p-4 object-cover rounded-lg shadow-xl bg-gray-50"
+                            className="w-50 sm:w-76 sm:max-w-md p-4 object-cover rounded-lg shadow-xl bg-gray-50"
                         />
                     </figure>
                     <div className='w-full'>
-                        <h1 className="text-3xl font-bold">{app.title}</h1>
-                        <p className="py-2 text-primary/65">
-                            Developed by <span className='bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold'>{app.companyName}</span>
-                        </p>
+                        <div className='flex flex-col px-3 items-center sm:items-start'>
+                            <div>
+                                <h1 className="text-3xl font-bold">{app.title}</h1>
+                                <p className="py-2 text-primary/65">
+                                    Developed by <span className='bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold'>{app.companyName}</span>
+                                </p>
+                            </div>
+                        </div>
                         <div className='border-1 border-gray-200 mx-1 shadow-gray-400 w-full my-2 mb-0'></div>
 
                         <div className='flex flex-col items-center md:items-start'>
