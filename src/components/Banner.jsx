@@ -5,7 +5,7 @@ import app from '../assets/fi_5977575.png'
 const Banner = () => {
     return (
         <div>
-            <div className="hero bg-base-100">
+            <div className="hero bg-base-100 px-4">
                 <div className="hero-content text-center text-primary">
                     <div className="max-w-2/3">
                         <h1 className="text-5xl font-bold">We Build <br /> <span className='bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h1>

@@ -21,12 +21,12 @@ const AppDetails = () => {
 
 
 
-    useEffect(()=>{
+    useEffect(() => {
         console.log(isInstalledApps(app.id))
-        if(isInstalledApps(app.id)){
+        if (isInstalledApps(app.id)) {
             setIsInstalled(true)
         }
-    },[app.id])
+    }, [app.id])
 
     const handleInstall = (appId) => {
 
@@ -45,13 +45,15 @@ const AppDetails = () => {
     }
 
     return (
-        <div className='px-10'>
+        <div className='px-4 sm:px-10'>
             <div className="w-full bg-base-100 min-h-70vh text-primary my-10">
-                <div className="flex gap-10 flex-col lg:flex-row">
-                    <img
-                        src={app.image}
-                        className="max-w-md size-84 p-4 object-cover rounded-lg shadow-xl"
-                    />
+                <div className="flex gap-10 flex-col md:flex-row">
+                    <figure>
+                        <img
+                            src={app.image}
+                            className="max-w-md size-84 p-4 object-cover rounded-lg shadow-xl bg-gray-50"
+                        />
+                    </figure>
                     <div className='w-full'>
                         <h1 className="text-3xl font-bold">{app.title}</h1>
                         <p className="py-2 text-primary/65">
@@ -59,8 +61,8 @@ const AppDetails = () => {
                         </p>
                         <div className='border-1 border-gray-200 mx-1 shadow-gray-400 w-full my-2 mb-0'></div>
 
-                        <div>
-                            <div className="my-4 stats gap-4 stats-vertical lg:stats-horizontal shadow">
+                        <div className='flex flex-col items-center md:items-start'>
+                            <div className="my-4 stats gap-4 stats-vertical md:stats-horizontal shadow">
                                 <div className="stat border-none">
                                     <div className="stat-desc"> <img src={dnimg} alt="download" className='h-8 mb-2' /> </div>
                                     <div className="stat-title">Downloads</div>
@@ -91,11 +93,15 @@ const AppDetails = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div>
+                                <button
+                                    onClick={() => handleInstall(app.id)}
+                                    disabled={isInstalled}
+                                    className="text-white btn bg-linear-to-br from-[#00D390] to-[#09a070]">{isInstalled ? 'Installed' : `Install Now (${app.size} MB)`}
+                                </button>
+                            </div>
                         </div>
-                        <button
-                            onClick={() => handleInstall(app.id)}
-                            disabled={isInstalled}
-                            className="text-white btn bg-linear-to-br from-[#00D390] to-[#09a070]">{isInstalled ? 'Installed' : `Install Now (${app.size} MB)`} </button>
+
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import error from "../assets/error-404.png"
 
 const ErrorPage = () => {
     return (
-        <div className='text-center h-screen flex flex-col items-center justify-center p-4 gap-4'>
+        <div className='text-center h-screen flex flex-col items-center justify-center p-4 px-8 gap-4'>
             <img src={error} alt="Error" className='w-96' />
             <div className='space-y-2 text-primary'>
                 <h1 className='text-5xl font-semibold'>Oops, page not found?</h1>

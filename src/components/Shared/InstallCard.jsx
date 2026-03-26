@@ -10,20 +10,20 @@ const InstallCard = ({ app, handleUnInstall }) => {
     // }
     return (
         <div>
-            <div className="flex justify-between h-24 items-center bg-base-100 shadow-lg p-3">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 bg-base-100 shadow-lg p-3">
 
-                <div className='flex gap-4 items-center'>
+                <div className='flex flex-col sm:flex-row sm:gap-4 items-center'>
                     <figure className='rounded-xl h-20 w-20'>
                         <img className='size-full rounded-xl object-cover hover:scale-105 transition-all hover:-rotate-1'
                             src={`${app.image}?w-200&q=70`}
                             // loading='lazy'
                             alt="Apps" />
                     </figure>
-                    <div className='h-22'>
-                        <h2 className=" font-semibold mt-2 p-2">
+                    <div className='sm:h-22'>
+                        <h2 className=" font-semibold mt-2 p-2 text-center sm:text-start">
                             {app.title}
                         </h2>
-                        <div className="card-actions justify-around">
+                        <div className="card-actions justify-center sm:justify-around ">
                             <div className="badge badge-soft badge-success">
                                 <img src={dowld} alt="download" className='h-5' />
                                 <span>
@@ -45,7 +45,8 @@ const InstallCard = ({ app, handleUnInstall }) => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+
+                <div className="flex justify-center">
 
                     <button
                         onClick={() => handleUnInstall(app.id)}
