@@ -1,363 +1,364 @@
 [
   {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+    "title": "Instagram",
+    "companyName": "Meta",
     "id": 1,
-    "title": "Photo Editor Pro",
-    "companyName": "PixelSoft",
-    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
-    "description": "Edit your photos like a professional with powerful tools and smart filters. Apply effects, adjust brightness, and enhance image quality easily. Perfect for both beginners and advanced users who want stunning results.",
-    "size": 45,
-    "reviews": 1200,
+    "description": "Instagram is a widely used social media platform where users can share photos, videos, and stories with friends and followers. It offers features like reels, live streaming, and direct messaging for better communication. Many creators and businesses use it for marketing and brand building. It also allows users to explore trending content worldwide.",
+    "size": 85,
+    "reviews": 1200000,
     "ratingAvg": 4.5,
-    "downloads": 50000,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 480 }
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 620000 }
     ]
   },
   {
+    "image": "https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
     "id": 2,
-    "title": "Music Streamer",
-    "companyName": "SoundWave",
-    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
-    "description": "Enjoy unlimited music streaming with personalized playlists and recommendations. Discover new songs, artists, and genres tailored to your taste. Listen anytime, anywhere with high-quality audio experience.",
-    "size": 30,
-    "reviews": 2200,
-    "ratingAvg": 4.7,
-    "downloads": 100000,
+    "description": "Netflix is a leading streaming platform offering a vast library of movies, TV shows, and original content. Users can watch content anytime on multiple devices with a subscription. It provides personalized recommendations based on viewing history. Offline downloads and high-quality streaming make it a favorite for entertainment lovers.",
+    "size": 120,
+    "reviews": 950000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 1460 }
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 440000 }
     ]
   },
   {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732200.png",
+    "title": "Gmail",
+    "companyName": "Google",
     "id": 3,
-    "title": "Fitness Tracker",
-    "companyName": "HealthPlus",
-    "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74",
-    "description": "Track your workouts, monitor calories, and stay on top of your fitness goals. Get detailed insights into your daily activities and health progress. A perfect companion for maintaining a healthy lifestyle.",
-    "size": 25,
-    "reviews": 1800,
-    "ratingAvg": 4.3,
-    "downloads": 75000,
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 700 }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Food Delivery",
-    "companyName": "QuickBite",
-    "image": "https://images.unsplash.com/photo-1498579809087-ef1e558fd1da",
-    "description": "Order your favorite meals quickly from nearby restaurants with fast delivery service. Explore a wide variety of cuisines and enjoy exclusive deals. Simple, convenient, and reliable food ordering experience.",
-    "size": 40,
-    "reviews": 3000,
-    "ratingAvg": 4.6,
-    "downloads": 200000,
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1450 }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Travel Guide",
-    "companyName": "WanderWorld",
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
-    "description": "Plan your trips and discover amazing destinations around the world. Get travel tips, guides, and recommendations for a smooth journey. Perfect for explorers who love adventure and new experiences.",
-    "size": 35,
-    "reviews": 950,
-    "ratingAvg": 4.2,
-    "downloads": 60000,
-    "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 300 }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Language Learning",
-    "companyName": "LinguaApp",
-    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
-    "description": "Learn new languages through interactive lessons, quizzes, and real-life conversations. Improve your speaking, reading, and writing skills step by step. Suitable for beginners as well as advanced learners.",
-    "size": 28,
-    "reviews": 1400,
+    "description": "Gmail is a powerful email service developed by Google that allows users to send and receive emails securely. It offers smart filtering, spam protection, and integration with other Google services. Users can organize emails using labels and categories. Its clean interface and reliability make it one of the most popular email platforms.",
+    "size": 30,
+    "reviews": 2000000,
     "ratingAvg": 4.4,
-    "downloads": 85000,
+    "downloads": 10000000000,
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 530 }
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 850000 }
     ]
   },
   {
-    "id": 7,
-    "title": "Note Keeper",
-    "companyName": "MemoTech",
-    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db",
-    "description": "Organize your notes, tasks, and ideas in one place with an easy-to-use interface. Stay productive by managing your daily activities efficiently. Ideal for students, professionals, and busy individuals.",
-    "size": 15,
-    "reviews": 800,
-    "ratingAvg": 4.1,
-    "downloads": 40000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 180 }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Weather Now",
-    "companyName": "SkyCast",
-    "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b",
-    "description": "Get accurate weather updates and forecasts in real time for your location. Stay prepared with alerts for rain, storms, and temperature changes. Simple and reliable weather tracking at your fingertips.",
-    "size": 20,
-    "reviews": 1100,
-    "ratingAvg": 4.3,
-    "downloads": 70000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 380 }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Budget Manager",
-    "companyName": "FinTrack",
-    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
-    "description": "Track your income, expenses, and savings with smart budgeting tools. Analyze your financial habits and make better money decisions. A great app for managing personal finances effectively.",
-    "size": 18,
-    "reviews": 900,
-    "ratingAvg": 4.0,
-    "downloads": 55000,
-    "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 190 }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Gaming Hub",
-    "companyName": "PlayZone",
-    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420",
-    "description": "Discover and play exciting games from various categories in one platform. Stay entertained with new releases and trending games. A perfect hub for gamers of all ages and interests.",
-    "size": 60,
-    "reviews": 2500,
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "id": 4,
+    "description": "WhatsApp is a popular messaging app that allows users to send texts, voice messages, images, and videos instantly. It supports voice and video calls with end-to-end encryption for security. Users can create groups and share updates through status. It is widely used globally for personal and business communication.",
+    "size": 40,
+    "reviews": 3000000,
     "ratingAvg": 4.6,
-    "downloads": 150000,
+    "downloads": 10000000000,
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 1250 }
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1380000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+    "title": "YouTube",
+    "companyName": "Google",
+    "id": 5,
+    "description": "YouTube is the world's largest video-sharing platform where users can watch, upload, and share videos. It offers a wide range of content including tutorials, entertainment, music, and live streams. Creators can earn through monetization and ads. Its recommendation system helps users discover relevant videos easily.",
+    "size": 110,
+    "reviews": 2500000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1340000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111624.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 6,
+    "description": "Spotify is a leading music streaming app that gives access to millions of songs and podcasts. Users can create playlists, discover new music, and follow their favorite artists. It offers both free and premium plans with offline listening. Its smart recommendation system enhances user experience.",
+    "size": 75,
+    "reviews": 800000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 320000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3046/3046126.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 7,
+    "description": "TikTok is a short-video platform where users can create and watch entertaining videos. It offers powerful editing tools, filters, and music integration. Many users go viral through creative content and trends. It is widely popular among younger audiences worldwide.",
+    "size": 95,
+    "reviews": 1500000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 130000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 570000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111646.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "Telegram is a cloud-based messaging app known for its speed and security. It supports large group chats, channels, and file sharing. Users can send messages across multiple devices seamlessly. It is popular for privacy-focused communication and large community groups.",
+    "size": 35,
+    "reviews": 600000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 230000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/684/684908.png",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "id": 9,
+    "description": "Google Maps is a navigation app that helps users find directions, locations, and nearby places. It provides real-time traffic updates and route suggestions. Users can explore restaurants, shops, and services easily. Offline maps and location sharing are also available.",
+    "size": 60,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 750000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "id": 10,
+    "description": "Facebook is a social networking platform that connects people worldwide. Users can share posts, photos, videos, and interact with friends. It also supports groups, pages, and marketplace features. Businesses use it for advertising and audience engagement.",
+    "size": 90,
+    "reviews": 2700000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1050000 }
     ]
   },
   
+  
   {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
     "id": 11,
-    "title": "Video Editor Studio",
-    "companyName": "EditX",
-    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
-    "description": "Create stunning videos with advanced editing tools and smooth transitions. Add effects, music, and filters to enhance your content easily. Perfect for content creators and video enthusiasts.",
-    "size": 55,
-    "reviews": 2100,
-    "ratingAvg": 4.6,
-    "downloads": 120000,
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1100 }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Chat Messenger",
-    "companyName": "Connectify",
-    "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70",
-    "description": "Stay connected with friends and family through fast and secure messaging. Send texts, images, and voice messages instantly. Enjoy group chats and seamless communication anytime.",
-    "size": 35,
-    "reviews": 3200,
-    "ratingAvg": 4.5,
-    "downloads": 250000,
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 1000 },
-      { "name": "5 star", "count": 1600 }
-    ]
-  },
-  {
-    "id": 13,
-    "title": "Ebook Reader",
-    "companyName": "Readify",
-    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "description": "Read your favorite books anytime with a smooth and comfortable reading experience. Customize fonts, themes, and brightness for better readability. Ideal for book lovers and daily readers.",
-    "size": 22,
-    "reviews": 900,
-    "ratingAvg": 4.3,
-    "downloads": 60000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 280 }
-    ]
-  },
-  {
-    "id": 14,
-    "title": "Online Shopping",
-    "companyName": "ShopEase",
-    "image": "https://images.unsplash.com/photo-1515168833906-d2a3b82b302a",
-    "description": "Shop from a wide range of products with exciting discounts and offers. Enjoy a smooth browsing and secure checkout experience. Perfect for convenient and hassle-free online shopping.",
-    "size": 48,
-    "reviews": 4100,
-    "ratingAvg": 4.7,
-    "downloads": 300000,
-    "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 1200 },
-      { "name": "5 star", "count": 2440 }
-    ]
-  },
-  {
-    "id": 15,
-    "title": "Task Manager",
-    "companyName": "TaskFlow",
-    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
-    "description": "Organize your daily tasks and boost productivity with smart planning tools. Set reminders, track progress, and manage deadlines easily. A great solution for staying focused and efficient.",
-    "size": 18,
-    "reviews": 1300,
-    "ratingAvg": 4.2,
-    "downloads": 70000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 340 }
-    ]
-  },
-  {
-    "id": 16,
-    "title": "News Portal",
-    "companyName": "DailyNews",
-    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-    "description": "Get the latest news updates from around the world in one place. Explore different categories like politics, sports, and technology. Stay informed with real-time and reliable news content.",
-    "size": 26,
-    "reviews": 1700,
-    "ratingAvg": 4.1,
-    "downloads": 90000,
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 450 }
-    ]
-  },
-  {
-    "id": 17,
-    "title": "Photo Gallery",
-    "companyName": "SnapView",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "description": "View, manage, and organize your photos in a clean and simple interface. Easily browse through albums and relive your favorite moments. A perfect solution for keeping your memories safe.",
-    "size": 20,
-    "reviews": 800,
-    "ratingAvg": 4.0,
-    "downloads": 50000,
-    "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 220 },
-      { "name": "5 star", "count": 170 }
-    ]
-  },
-  {
-    "id": 18,
-    "title": "Map Navigator",
-    "companyName": "RouteFinder",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "description": "Navigate easily with accurate maps and real-time traffic updates. Find the best routes and avoid delays during travel. A reliable companion for daily commuting and long trips.",
-    "size": 38,
-    "reviews": 2600,
+    "description": "Zoom is a video conferencing app that allows users to host and join online meetings, webinars, and virtual events. It supports screen sharing, recording, and chat features. It became very popular for remote work and online classes. The platform is known for its ease of use and reliable connection.",
+    "size": 70,
+    "reviews": 900000,
     "ratingAvg": 4.4,
-    "downloads": 180000,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1240 }
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 340000 }
     ]
   },
   {
-    "id": 19,
-    "title": "Recipe Book",
-    "companyName": "CookMaster",
-    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
-    "description": "Discover delicious recipes and learn cooking step by step. Explore various cuisines and improve your cooking skills. Perfect for beginners and experienced home chefs alike.",
-    "size": 27,
-    "reviews": 1400,
-    "ratingAvg": 4.5,
-    "downloads": 95000,
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111498.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 12,
+    "description": "Snapchat is a multimedia messaging app where users can send photos and videos that disappear after viewing. It offers fun filters, lenses, and stories for creative expression. Users can chat and share moments with friends in real-time. It is especially popular among younger users.",
+    "size": 95,
+    "reviews": 1100000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 530 }
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 330000 }
     ]
   },
   {
-    "id": 20,
-    "title": "Meditation App",
-    "companyName": "CalmMind",
-    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
-    "description": "Relax your mind and reduce stress with guided meditation sessions. Improve focus, sleep, and overall well-being. Ideal for maintaining a calm and balanced lifestyle.",
-    "size": 32,
-    "reviews": 1900,
+    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+    "title": "Google Drive",
+    "companyName": "Google",
+    "id": 13,
+    "description": "Google Drive is a cloud storage service that allows users to store files online and access them from any device. It supports document creation, sharing, and collaboration in real-time. Users can organize files easily and keep backups securely. It integrates well with other Google services.",
+    "size": 45,
+    "reviews": 850000,
     "ratingAvg": 4.6,
-    "downloads": 130000,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 910 }
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 420000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "id": 14,
+    "description": "LinkedIn is a professional networking platform where users can connect with colleagues, find jobs, and build their careers. It allows sharing of professional achievements and industry knowledge. Companies use it for hiring and branding. It is widely used by professionals worldwide.",
+    "size": 60,
+    "reviews": 700000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968885.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft",
+    "id": 15,
+    "description": "Microsoft Teams is a collaboration app that combines chat, video meetings, and file sharing. It is widely used for remote work and team communication. Users can create channels and collaborate efficiently. Integration with Microsoft Office tools makes it highly productive.",
+    "size": 80,
+    "reviews": 650000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733579.png",
+    "title": "Twitter (X)",
+    "companyName": "X Corp",
+    "id": 16,
+    "description": "Twitter, now known as X, is a social media platform where users post short messages called tweets. It is widely used for news, trends, and public discussions. Users can follow others, like posts, and share content instantly. It plays a major role in global communication.",
+    "size": 50,
+    "reviews": 1300000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+    "title": "Google Chrome",
+    "companyName": "Google",
+    "id": 17,
+    "description": "Google Chrome is a fast and secure web browser used to access the internet. It offers features like tab browsing, extensions, and syncing across devices. Users can browse websites quickly and safely. Its simple interface and speed make it highly popular.",
+    "size": 150,
+    "reviews": 2200000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 950000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 18,
+    "description": "Canva is a graphic design tool that allows users to create social media posts, presentations, and posters easily. It provides templates, fonts, and images for design. Even beginners can design like professionals. It is widely used for creative projects.",
+    "size": 65,
+    "reviews": 500000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 240000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991147.png",
+    "title": "Google Photos",
+    "companyName": "Google",
+    "id": 19,
+    "description": "Google Photos is a photo storage and sharing app that allows users to back up images and videos. It offers smart search, editing tools, and automatic organization. Users can access their memories anytime. It is widely used for cloud photo management.",
+    "size": 55,
+    "reviews": 1000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 330000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111728.png",
+    "title": "Messenger",
+    "companyName": "Meta",
+    "id": 20,
+    "description": "Messenger is a messaging app by Meta that allows users to chat, send media, and make voice or video calls. It integrates with Facebook and supports group chats. Users can react to messages and use fun stickers. It is widely used for instant communication.",
+    "size": 70,
+    "reviews": 1400000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 480000 }
     ]
   }
 

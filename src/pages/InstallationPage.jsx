@@ -76,6 +76,10 @@ const InstallationPage = () => {
 
                 <div className='my-3 grid grid-cols-1 gap-4'>
                     {
+                        installedApps.length===0
+                        ?
+                        <p className='text-center mt-7 text-2xl font-bold'>No Installed Apps Found</p>
+                        :
                         installedApps.map(app => (
                             <InstallCard key={app.id} app={app} handleUnInstall={handleUnInstall}></InstallCard>
                         ))

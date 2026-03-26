@@ -46,18 +46,18 @@ const AppDetails = () => {
 
     return (
         <div className='px-10'>
-            <div className="hero bg-base-100 min-h-70vh text-primary">
+            <div className="w-full bg-base-100 min-h-70vh text-primary my-10">
                 <div className="flex gap-10 flex-col lg:flex-row">
                     <img
                         src={app.image}
-                        className="max-w-md rounded-lg shadow-2xl"
+                        className="max-w-md size-84 p-4 object-cover rounded-lg shadow-xl"
                     />
-                    <div className=''>
+                    <div className='w-full'>
                         <h1 className="text-3xl font-bold">{app.title}</h1>
                         <p className="py-2 text-primary/65">
                             Developed by <span className='bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold'>{app.companyName}</span>
                         </p>
-                        <div className='border-1 border-white shadow-gray-400 w-full my-2 mb-0'></div>
+                        <div className='border-1 border-gray-200 mx-1 shadow-gray-400 w-full my-2 mb-0'></div>
 
                         <div>
                             <div className="my-4 stats gap-4 stats-vertical lg:stats-horizontal shadow">
@@ -100,6 +100,8 @@ const AppDetails = () => {
                 </div>
             </div>
 
+            <div className='border-1 border-gray-200 mx-1 shadow-gray-400 w-full my-2'></div>
+
             <div className='my-10 text-primary'>
                 <h1 className='text-xl font-semibold my-6'>Ratings</h1>
                 <div>
@@ -115,10 +117,12 @@ const AppDetails = () => {
                 </div>
             </div>
 
+            <div className='border-1 border-gray-200 mx-1 shadow-gray-400 w-full my-2'></div>
+
             <div className='my-10 text-primary'>
                 <h1 className='text-xl font-semibold my-6'>Description</h1>
                 <div>
-                    <p className='text-primary/55'>{app.description}</p>
+                    <p className='text-primary/55 px-3'>{app.description}</p>
                 </div>
             </div>
         </div>
