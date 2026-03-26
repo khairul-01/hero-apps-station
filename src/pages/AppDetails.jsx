@@ -47,11 +47,11 @@ const AppDetails = () => {
     return (
         <div className='px-4 sm:px-10'>
             <div className="w-full bg-base-100 min-h-70vh text-primary my-10">
-                <div className="flex gap-10 flex-col md:flex-row">
-                    <figure>
+                <div className="flex gap-10 flex-col md:flex-row items-center">
+                    <figure className='rounded-xl'>
                         <img
                             src={app.image}
-                            className="max-w-md size-84 p-4 object-cover rounded-lg shadow-xl bg-gray-50"
+                            className="w-50 sm:w-96 sm:max-w-md p-4 object-cover rounded-lg shadow-xl bg-gray-50"
                         />
                     </figure>
                     <div className='w-full'>
