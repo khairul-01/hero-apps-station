@@ -1,4 +1,5 @@
 <div align="center">
+
 # 🚀 Hero App Station
 
 Hero App Station is a modern web application that helps users discover, explore, and evaluate the best applications across multiple categories.
