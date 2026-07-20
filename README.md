@@ -2,6 +2,8 @@
 
 # 🚀 Hero App Station
 
+</div>
+
 Hero App Station is a modern web application that helps users discover, explore, and evaluate the best applications across multiple categories.
 
 It offers a clean, responsive, and user-friendly interface where users can browse apps, search instantly, and view detailed information such as ratings, reviews, and download counts.
@@ -13,7 +15,7 @@ The application is designed with performance and user experience in mind, provid
 ## 📷 Project Screenshot
 
 
-![Hero App Station Screenshot]
+
 <img width="1311" height="637" alt="image" src="https://github.com/user-attachments/assets/d1f39233-0c82-4fa5-bbc8-fa9f09c58766" />
 
 
